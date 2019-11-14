@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SelenideTest" verbose="1">
+    <test name="TestWithTestNGReport">
+        <packages>
+            <package name="art.lebedev.test" />
+        </packages>
+    </test>
+</suite>
